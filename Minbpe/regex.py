@@ -10,7 +10,7 @@ RegexTokenizer extends this base class with regex-based tokenization.
 """
 
 import regex as re
-from base import Tokenizer, get_stats, merge
+from Minbpe.base import Tokenizer, get_stats, merge
 
 # GPT-style regex patterns
 GPT2_SPLIT_PATTERN = r"""'(?:[sdmt]|ll|ve|re)| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+"""
