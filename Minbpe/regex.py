@@ -128,6 +128,3 @@ class RegexTokenizer(Tokenizer):
             else:
                 ids.extend(self.encode_ordinary(part))
         return ids
-    
-
-#new one 
