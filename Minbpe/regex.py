@@ -128,3 +128,12 @@ class RegexTokenizer(Tokenizer):
             else:
                 ids.extend(self.encode_ordinary(part))
         return ids
+
+
+# The RegexTokenizer implementation you are using trains the tokenizer by iteratively merging the most frequent 
+# pairs of tokens until no more merges can be made or a desired number of merges is reached. The vocab_size 
+# parameter you provided is not a strict upper limit on the final vocabulary size in this implementation. 
+# The final vocabulary size is determined by the initial byte vocabulary (256 tokens) plus the number 
+# of merges performed. In this case, 353 merges were performed, 
+# resulting in a vocabulary size of 256 + 353 = 609.
+
