@@ -59,3 +59,10 @@ print("Vocabulary size:", len(vocab))
 print("Number of merges:", len(merges))
 print("Merges:", merges)  # Uncomment to see the merges
 print("Vocab:", vocab)  # Uncomment to see the vocabulary
+
+
+
+# This script is designed to train a BPE tokenizer using the provided text file.
+# It reads the text, counts word frequencies, trains the tokenizer, and saves the vocabulary and merges to JSON files.
+# The script also prints the number of tokens and token IDs for verification.
+# Make sure to adjust the file paths and parameters as needed for your specific use case.
