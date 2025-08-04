@@ -1,4 +1,4 @@
-from index import  train_bpe_tokenizer;
+from train import  train_bpe_tokenizer;
 
 def main():
     train_bpe_tokenizer; #it will run the training process for the BPE tokenizer
