@@ -15,6 +15,11 @@ You can now run any code in the repo using
 ```sh
 uv run main.py
 ```
+or 
+
+```sh
+uv run -m cProfile -s time main.py
+```
 and the environment will be automatically solved and activated when necessary.
 
 ### Run unit tests
