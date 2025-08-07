@@ -74,12 +74,12 @@ def train_bpe_tokenizer(input_path: str, vocab_size: int, special_tokens: list[s
 
 
 # === USAGE ===
-file_path = "/content/Data/TinyStoriesV2-GPT4-train.txt"
+file_path = "text.txt"
 vocab_size = 4000
 special_tokens = ["<|endoftext|>"]
-vocab_output_path = "/content/bpe_vocab.json"
-merges_output_path = "/content/bpe_merges.json"
-token_ids_output_path = "/content/token_ids.json"
+vocab_output_path = "content/bpe_vocab.json"
+merges_output_path = "content/bpe_merges.json"
+token_ids_output_path = "content/token_ids.json"
 
 vocab, merges = train_bpe_tokenizer(
     input_path=file_path,
